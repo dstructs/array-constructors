@@ -24,7 +24,7 @@ describe( 'compute-array-constructors', function tests() {
 		expect( getCtor ).to.be.a( 'function' );
 	});
 
-	it( 'should return array construgetCtors', function test() {
+	it( 'should return array constructors', function test() {
 		assert.strictEqual( getCtor( 'int8' ), Int8Array );
 
 		assert.strictEqual( getCtor( 'uint8' ), Uint8Array );
