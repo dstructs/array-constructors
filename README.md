@@ -1,8 +1,8 @@
-array-constructors
+Array Constructors
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Returns an object which maps array data types to array constructors.
+> Returns an array constructor corresponding to an input data type.
 
 
 ## Installation
@@ -17,18 +17,80 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var foo = require( 'compute-array-constructors' );
+var getCtor = require( 'compute-array-constructors' );
 ```
 
-#### foo( arr )
+#### getCtor( dtype )
 
-What does this function do?
+Returns an `array` constructor corresponding to an input data type.
+
+``` javascript
+var ctor = getCtor( 'int8' );
+// returns Int8Array
+```
+
+The following `array` data types are supported:
+*	`int8`: [`Int8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array)
+*	`uint8`: [`Uint8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array)
+*	`uint8_clamped`: [`Uint8ClampedArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray)
+*	`int16`: [`Int16Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array)
+*	`uint16`: [`Uint16Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array)
+*	`int32`: [`Int32Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array)
+*	`uint32`: [`Uint32Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array)
+*	`float32`: [`Float32Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array)
+*	`float64`: [`Float64Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array)
+*	`generic`: [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 
 ## Examples
 
 ``` javascript
-var foo = require( 'compute-array-constructors' );
+var getCtor = require( 'compute-array-constructors' );
+
+console.log( getCtor( 'int8' ) );
+// returns Int8Array
+
+console.log( getCtor( 'uint8' ) );
+// returns Uint8Array
+
+console.log( getCtor( 'uint8_clamped' ) );
+// returns Uint8ClampedArray
+
+console.log( getCtor( 'int16' ) );
+// returns Int16Array
+
+console.log( getCtor( 'uint16' ) );
+// returns Uint16Array
+
+console.log( getCtor( 'int32' ) );
+// returns Int32Array
+
+console.log( getCtor( 'uint32' ) );
+// returns Uint32Array
+
+console.log( getCtor( 'float32' ) );
+// returns Float32Array
+
+console.log( getCtor( 'float64' ) );
+// returns Float64Array
+
+console.log( getCtor( 'generic' ) );
+// returns Array
+
+console.log( getCtor( null ) );
+// returns null
+
+console.log( getCtor( 'object' ) );
+// returns null
+
+console.log( getCtor( 'array' ) );
+// returns null
+
+console.log( getCtor( {} ) );
+// returns null
+
+console.log( getCtor( [] ) );
+// returns null
 ```
 
 To run the example code from the top-level application directory,
