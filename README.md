@@ -22,7 +22,7 @@ var getCtor = require( 'compute-array-constructors' );
 
 #### getCtor( dtype )
 
-Returns an `array` constructor corresponding to an input `array` data type.
+Returns an `array` constructor corresponding to an `array` data type.
 
 ``` javascript
 var ctor = getCtor( 'int8' );
