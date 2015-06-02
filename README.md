@@ -2,7 +2,7 @@ Array Constructors
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Returns an array constructor corresponding to an input data type.
+> Returns an array constructor corresponding to an array data type.
 
 
 ## Installation
@@ -22,7 +22,7 @@ var getCtor = require( 'compute-array-constructors' );
 
 #### getCtor( dtype )
 
-Returns an `array` constructor corresponding to an input data type.
+Returns an `array` constructor corresponding to an input `array` data type.
 
 ``` javascript
 var ctor = getCtor( 'int8' );

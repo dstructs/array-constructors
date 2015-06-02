@@ -1,7 +1,7 @@
 {
   "name": "compute-array-constructors",
   "version": "0.0.0",
-  "description": "Returns an array constructor corresponding to an input data type.",
+  "description": "Returns an array constructor corresponding to an array data type.",
   "author": {
     "name": "Athan Reines",
     "email": "kgryte@gmail.com"
