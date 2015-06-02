@@ -18,7 +18,7 @@ var expect = chai.expect,
 
 // TESTS //
 
-describe( 'compute-array-construgetCtors', function tests() {
+describe( 'compute-array-constructors', function tests() {
 
 	it( 'should export a function', function test() {
 		expect( getCtor ).to.be.a( 'function' );
