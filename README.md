@@ -145,20 +145,20 @@ Copyright &copy; 2015. The Compute.io Authors.
 [npm-image]: http://img.shields.io/npm/v/compute-array-constructors.svg
 [npm-url]: https://npmjs.org/package/compute-array-constructors
 
-[travis-image]: http://img.shields.io/travis/compute-io/array-constructors/master.svg
-[travis-url]: https://travis-ci.org/compute-io/array-constructors
+[travis-image]: http://img.shields.io/travis/dstructs/array-constructors/master.svg
+[travis-url]: https://travis-ci.org/dstructs/array-constructors
 
 [codecov-image]: https://img.shields.io/codecov/c/github/dstructs/array-constructors/master.svg
 [codecov-url]: https://codecov.io/github/dstructs/array-constructors?branch=master
 
-[dependencies-image]: http://img.shields.io/david/compute-io/array-constructors.svg
-[dependencies-url]: https://david-dm.org/compute-io/array-constructors
+[dependencies-image]: http://img.shields.io/david/dstructs/array-constructors.svg
+[dependencies-url]: https://david-dm.org/dstructs/array-constructors
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/compute-io/array-constructors.svg
-[dev-dependencies-url]: https://david-dm.org/dev/compute-io/array-constructors
+[dev-dependencies-image]: http://img.shields.io/david/dev/dstructs/array-constructors.svg
+[dev-dependencies-url]: https://david-dm.org/dev/dstructs/array-constructors
 
-[github-issues-image]: http://img.shields.io/github/issues/compute-io/array-constructors.svg
-[github-issues-url]: https://github.com/compute-io/array-constructors/issues
+[github-issues-image]: http://img.shields.io/github/issues/dstructs/array-constructors.svg
+[github-issues-url]: https://github.com/dstructs/array-constructors/issues
 
 [mocha]: http://mochajs.org/
 [chai]: http://chaijs.com
