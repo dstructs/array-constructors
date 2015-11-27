@@ -1,5 +1,5 @@
 {
-  "name": "compute-array-constructors",
+  "name": "dstructs-array-constructors",
   "version": "1.0.1",
   "description": "Returns an array constructor corresponding to an array data type.",
   "author": {

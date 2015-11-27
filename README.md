@@ -8,7 +8,7 @@ Array Constructors
 ## Installation
 
 ``` bash
-$ npm install compute-array-constructors
+$ npm install dstructs-array-constructors
 ```
 
 For use in the browser, use [browserify](https://github.com/substack/node-browserify).
@@ -17,7 +17,7 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var getCtor = require( 'compute-array-constructors' );
+var getCtor = require( 'dstructs-array-constructors' );
 ```
 
 #### getCtor( dtype )
@@ -48,7 +48,7 @@ The following `array` data types are supported:
 ## Examples
 
 ``` javascript
-var getCtor = require( 'compute-array-constructors' );
+var getCtor = require( 'dstructs-array-constructors' );
 
 console.log( getCtor( 'int8' ) );
 // returns Int8Array
@@ -142,8 +142,8 @@ $ make view-cov
 Copyright &copy; 2015. The Compute.io Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/compute-array-constructors.svg
-[npm-url]: https://npmjs.org/package/compute-array-constructors
+[npm-image]: http://img.shields.io/npm/v/dstructs-array-constructors.svg
+[npm-url]: https://npmjs.org/package/dstructs-array-constructors
 
 [travis-image]: http://img.shields.io/travis/dstructs/array-constructors/master.svg
 [travis-url]: https://travis-ci.org/dstructs/array-constructors
