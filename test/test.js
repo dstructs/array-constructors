@@ -3,10 +3,7 @@
 
 // MODULES //
 
-var // Expectation library:
-	chai = require( 'chai' ),
-
-	// Module to be tested:
+var chai = require( 'chai' ),
 	getCtor = require( './../lib' );
 
 
@@ -18,7 +15,7 @@ var expect = chai.expect,
 
 // TESTS //
 
-describe( 'compute-array-constructors', function tests() {
+describe( 'dstructs-array-constructors', function tests() {
 
 	it( 'should export a function', function test() {
 		expect( getCtor ).to.be.a( 'function' );
