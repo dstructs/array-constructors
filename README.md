@@ -1,6 +1,6 @@
 Array Constructors
 ===
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
 > Returns an array constructor corresponding to an array data type.
 
@@ -148,8 +148,8 @@ Copyright &copy; 2015. The Compute.io Authors.
 [travis-image]: http://img.shields.io/travis/compute-io/array-constructors/master.svg
 [travis-url]: https://travis-ci.org/compute-io/array-constructors
 
-[coveralls-image]: https://img.shields.io/coveralls/compute-io/array-constructors/master.svg
-[coveralls-url]: https://coveralls.io/r/compute-io/array-constructors?branch=master
+[codecov-image]: https://img.shields.io/codecov/c/github/dstructs/array-constructors/master.svg
+[codecov-url]: https://codecov.io/github/dstructs/array-constructors?branch=master
 
 [dependencies-image]: http://img.shields.io/david/compute-io/array-constructors.svg
 [dependencies-url]: https://david-dm.org/compute-io/array-constructors
